@@ -1,2 +1,6 @@
-# web-335
-Repository for Bellevue University's Introduction to NoSQL Class Assignments
+# WEB 335 Introduction to NoSQL.
+
+## Contributors
+
+- Richard Krasso
+- Jamal Damir

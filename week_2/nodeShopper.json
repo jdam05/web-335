@@ -1,0 +1,31 @@
+{
+	"customer": {
+		"_id": 364,
+		"firstName": "James",
+		"lastName": "Maxwell",
+		"dateOfBirth": "Dec-08-1994",
+		"userName": "Nate2002",
+		"invoice": [
+			{
+				"_id": 26202,
+				"createDate": "Oct-17-2022",
+				"shiptDate": "Oct-18-2022",
+				"subtotal": 48.24,
+				"lineItem": [
+					{
+						"_id": 203,
+						"productName": "Back Scratcher",
+						"price": 34.11,
+						"qty": 1
+					},
+					{
+						"_id": 124,
+						"productName": "Hair Pomade",
+						"price": 14.13,
+						"qty": 1
+					}
+				]
+			}
+		]
+	}
+}

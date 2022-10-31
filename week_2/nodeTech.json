@@ -1,0 +1,22 @@
+{
+	"student": {
+		"studentId": 23456486,
+		"firstName": "Eric",
+		"lastName": "Erickson",
+		"enrollment": {
+			"term": "Spring",
+			"gpa": 4.0,
+			"startDate": "Mar-12-2022",
+			"enDate": "Jun-14-2022",
+			"course": [
+				{
+					"courseId": 101,
+					"description": "Introductory Course",
+					"instructor": "Tom Smith",
+					"score": 98,
+					"letterGrade": "A+"
+				}
+			]
+		}
+	}
+}

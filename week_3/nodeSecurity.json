@@ -1,0 +1,19 @@
+{
+	"user": {
+		"id": "Eric2009",
+		"firstName": "Eric",
+		"lastName": "Lee",
+		"role": [
+			{
+				"roleID": "354",
+				"roleName": "Administrator",
+				"rolePermission": [
+					{
+						"permissionID": "45",
+						"permissionType": "read, write, update, delete"
+					}
+				]
+			}
+		]
+	}
+}

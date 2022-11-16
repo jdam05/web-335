@@ -1,0 +1,28 @@
+{
+	"publisher": {
+		"name": "Pearson",
+		"code": "345",
+		"address": "330 Hudson, New York City, New York",
+		"book": [
+			{
+				"isbn": 9780321826626,
+				"name": "NoSQL Distilled",
+				"price": 44.99,
+				"author": [
+					{
+						"fistName": "Pramod",
+						"lastName": "Sadalage",
+						"phone": 1234567889,
+						"email": "author@book.com"
+					},
+					{
+						"fistName": "Martin",
+						"lastName": "Fowler",
+						"phone": 2345678890,
+						"email": "author@book.com"
+					}
+				]
+			}
+		]
+	}
+}

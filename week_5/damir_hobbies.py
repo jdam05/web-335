@@ -1,9 +1,9 @@
-#Title: damir_hobbies.py
-#Date: November 19, 2022
-#Author: Jamal Eddine Damir
-#Description: Python code demonstrating the use of lists and "for loops" with
+# Title: damir_hobbies.py
+# Date: November 19, 2022
+# Author: Jamal Eddine Damir
+# Description: Python code demonstrating the use of lists and "for loops" with
 #             conditional statements.
-#Sources:
+# Sources:
 # W3Schools.com
 
 # Creating a list of hobbies

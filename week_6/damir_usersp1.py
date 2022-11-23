@@ -1,4 +1,4 @@
-#Title: damir_myworld.py
+#Title: damir_usersp1.py
 #Date: November 22, 2022
 #Author: Jamal Eddine Damir
 #Description: Code that demonstrates how to select data from MongoDB using Python

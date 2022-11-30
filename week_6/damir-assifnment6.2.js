@@ -31,47 +31,43 @@ db.students.findOne({ lastName: "Damir" });
 db.students.deleteOne({ lastName: "Damir" });
 
 // Showing students by house
-db.students.aggregate([
+db.houses.aggregate([
 	{
 		$lookup: {
-			from: "houses",
+			from: "students",
 			localField: "houseId",
 			foreignField: "houseId",
-			as: "houseInfo",
+			as: "student_doc",
 		},
 	},
 ]);
 
 // Showing students at house Gryffindor (houseId: "h1007")
-db.students.aggregate([
+db.houses.aggregate([
 	{
 		$lookup: {
-			from: "houses",
+			from: "students",
 			localField: "houseId",
 			foreignField: "houseId",
-			as: "houseInfo",
+			as: "student_doc",
 		},
 	},
-	{
-		$match: {
-			houseId: "h1007",
-		},
-	},
+	{ $match: { founder: "Godric Gryffindor" } },
 ]);
 
 // Showing students with "Eagle" Mascot
-db.students.aggregate([
+db.houses.aggregate([
 	{
 		$lookup: {
-			from: "houses",
+			from: "students",
 			localField: "houseId",
 			foreignField: "houseId",
-			as: "houseInfo",
+			as: "student_doc",
 		},
 	},
 	{
 		$match: {
-			"houseInfo.mascot": "Eagle",
+			mascot: "Eagle",
 		},
 	},
 ]);
